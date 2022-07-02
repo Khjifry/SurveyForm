@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Ice Cream Form</h1>
+    <p id="description">This page is used to collect user data about their favorite ice cream flavour and company.</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Username:</label>
+        <input type="text" id="name" name="user-name" placeholder="Write here for username" required />
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="user-email" placeholder="Write here for email" required />
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" name="user-age" placeholder="Write here for age" min="7" max="77"/>
+        <fieldset>
+            <legend>What is your gender?</legend>
+            <label for="girl"><input type="checkbox" id="girl" name="user-gender" value="girl">Girl</label>
+            <label for="boy"></label><input type="checkbox" id="boy" name="user-gender" value="boy">Boy</label>
+            <label for="woman"><input type="checkbox" id="woman" name="user-gender" value="woman">Woman</label>
+            <label for="man"></label><input type="checkbox" id="man" name="user-gender" value="man">Man</label>
+        </fieldset>
+        <label for="dropdown">Choose your favorite flavours of ice cream:</label>
+        <select id="dropdown" name="user-fav-flavour" required>
+            <option value="Vanilla">Vanilla</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Banana">Banana</option>
+            <option value="Manggo">Manggo</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Mocca">Mocca</option>
+            <option value="Greentea">Greentea</option>
+        </select>
+        <fieldset>
+            <legend>Choose your favorite company: </legend>
+            <label for="walls"><input type="radio" name="user-fav-company" id="walls" value="walls" required>Walls</label>
+            <label for="aice"><input type="radio" name="user-fav-company" id="aice" value="aice" required>Aice</label>
+            <label for="glince-wings"><input type="radio" name="user-fav-company" id="glince-wings" value="glince-wings" required>Glince Wings</label>
+        </fieldset>
+        <textarea name="user-comment" id="comment" placeholder="Comment here............" ></textarea>
+        <input type="submit" value="Submit" id="submit" name="user-submit">
+    </form>
+    </div>
+    <p id="copyright">Copyright 2022 @khjifry</p>
+</body>
+</html>

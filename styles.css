@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1536351425844-145ebdae32d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+  }
+  #container {
+    min-width: 250px;
+    max-width: 700px;
+    width: 50%;
+    margin: 3% auto;
+    padding: 2%;
+    background-color: rgba(251, 141, 240, 30%);
+    color: white;
+  }
+  #title,
+  #description {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #name,
+  #email,
+  #number {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    padding: 10px;
+    color: white;
+  }
+  label {
+    display: block;
+    margin: 10px 0 1px 0;
+  }
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 15px 0;
+  }
+  #dropdown {
+    width: 50%;
+    text-align: center;
+  }
+  #comment {
+    min-width: 200px;
+    width: 50%;
+    height: 20vh;
+  }
+  #comment,
+  #dropdown,
+  input {
+    color: white;
+    background-color: rgb(247, 148, 250);
+    border: 1px solid white;
+    padding: 2px 4px;
+    outline: none;
+  }
+  #comment::placeholder,
+  input::placeholder {
+    color: white;
+  }
+  #submit {
+    display: block;
+  }
+  #copyright {
+    color: white;
+    text-align: center;
+    font-size: x-small;
+  }
+  
